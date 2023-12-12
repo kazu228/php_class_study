@@ -7,7 +7,9 @@ $p->firstName = 'ぺこ';
 
 $p->lastName = 'ぽこ';
 
-print " {$p->firstName } ";
+// print " {$p->firstName } ";
 
-print " {$p->lastName }";
+// print " {$p->lastName }";
+
+$p->show();
 
