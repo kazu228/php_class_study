@@ -10,7 +10,12 @@ class Person {
     }
 
     
-    public function show () {
+    // public function show () {
+    //     print "僕の名前は、{$this->firstName } {$this->lastName } です、";
+    // }
+
+    // privateだと、呼び出せない。(カプセル化)
+    private function show () {
         print "僕の名前は、{$this->firstName } {$this->lastName } です、";
     }
 }
